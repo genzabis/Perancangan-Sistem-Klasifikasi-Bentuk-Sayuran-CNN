@@ -1,74 +1,37 @@
-**🥦 Klasifikasi Bentuk Sayuran Menggunakan CNN**
+# 🥦 Klasifikasi Bentuk Sayuran Menggunakan CNN
 
-Project ini merupakan implementasi sistem klasifikasi bentuk sayuran berbasis Convolutional Neural Network (CNN) menggunakan TensorFlow dan Keras. Sistem ini memanfaatkan citra digital untuk mengenali dan mengelompokkan bentuk sayuran secara otomatis.
+Project ini merupakan implementasi sistem klasifikasi bentuk sayuran berbasis
+**Convolutional Neural Network (CNN)** menggunakan **TensorFlow dan Keras**.
+Sistem ini memanfaatkan citra digital untuk mengenali dan mengelompokkan bentuk
+sayuran secara otomatis.
 
-🎯 Tujuan
+---
 
-Menerapkan konsep Deep Learning pada pengolahan citra
+## 🎯 Tujuan
+- Menerapkan konsep Deep Learning pada pengolahan citra  
+- Mengklasifikasikan bentuk sayuran menggunakan CNN  
+- Mengevaluasi performa model dengan confusion matrix  
 
-Mengklasifikasikan bentuk sayuran menggunakan CNN
+---
 
-Mengukur performa model dengan confusion matrix
+## 🧠 Metode
+Model dibangun menggunakan arsitektur **Convolutional Neural Network** dengan
+tahapan utama:
+1. Preprocessing data citra  
+2. Training model  
+3. Evaluasi hasil klasifikasi  
 
-🧠 Metode
+---
 
-Model dibangun menggunakan arsitektur Convolutional Neural Network dengan tahapan utama:
+## 🛠️ Teknologi & Library
+- TensorFlow / Keras  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
 
-Preprocessing data citra
+---
 
-Training model
-
-Evaluasi hasil klasifikasi
-
-🛠️ Teknologi & Library
-
-Project ini menggunakan beberapa library utama:
-
-TensorFlow / Keras – pembuatan dan training model CNN
-
-NumPy – pengolahan data numerik
-
-Matplotlib – visualisasi hasil
-
-Scikit-learn – evaluasi model (confusion matrix)
-
-Library yang digunakan sesuai dengan import berikut:
-
-tensorflow
-
-numpy
-
-matplotlib
-
-sklearn
-
-📂 Struktur Singkat
-klasifikasi_sayuran_cnn_python/
-├── dataset/
-│   ├── train/
-│   ├── validation/
-│   └── test/
-├── models/
-├── scripts/
-├── main.py
-├── requirements.txt
-└── README.md
-
-▶️ Cara Menjalankan
-
-Install dependency:
-
+## ▶️ Cara Menjalankan
+```bash
 pip install -r requirements.txt
-
-
-Jalankan program:
-
 python main.py
-
-📊 Output
-
-Prediksi kelas bentuk sayuran
-
-Visualisasi confusion matrix
-
-Evaluasi performa model klasifikasi
