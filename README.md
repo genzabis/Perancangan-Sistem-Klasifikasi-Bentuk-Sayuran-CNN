@@ -1,7 +1,7 @@
 # 🥦 Klasifikasi Bentuk Sayuran Menggunakan CNN
 
-Project ini merupakan implementasi sistem klasifikasi bentuk sayuran berbasis
-**Convolutional Neural Network (CNN)** menggunakan **TensorFlow dan Keras**.
+Project ini merupakan implementasi sistem klasifikasi bentuk sayuran berbasis  
+**Convolutional Neural Network (CNN)** menggunakan **TensorFlow dan Keras**.  
 Sistem ini memanfaatkan citra digital untuk mengenali dan mengelompokkan bentuk
 sayuran secara otomatis.
 
@@ -31,7 +31,27 @@ tahapan utama:
 
 ---
 
+## 📁 Dataset
+Dataset tidak disertakan langsung di repository karena ukuran file cukup besar.  
+Silakan unduh dataset melalui link berikut:
+
+https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset/data  
+
+Setelah mengunduh, simpan dataset ke dalam folder:
+
+dataset/
+
+---
+
 ## ▶️ Cara Menjalankan
-```bash
-pip install -r requirements.txt
-python main.py
+
+pip install -r requirements.txt  
+python main.py  
+
+---
+
+## 📊 Output
+- Prediksi kelas bentuk sayuran  
+- Visualisasi confusion matrix  
+- Evaluasi performa model  
+
